@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ajmal | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Ajmal<span>.</span></div>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#fun-zone">Fun Zone</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Theme toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+      <span class="icon sun"><i class="uil uil-sun"></i></span>
+      <span class="icon moon"><i class="uil uil-moon"></i></span>
+    </button>
+
+    <div class="menu-toggle"><i class="uil uil-bars"></i></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="badge">MERN Stack Developer</span>
+      <h1>
+        Hi, I'm <span class="accent">Ajmal</span><br />
+        <span class="typing" id="typing"></span>
+      </h1>
+      <p>
+        I build fast, responsive, and modern web applications with
+        clean code and smooth animations.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn ghost">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/ajmalshaa2002"><i class="uil uil-github"></i></a>
+        <a href="https://www.linkedin.com/in/ajmal-sha-n-s-7422bb396"><i class="uil uil-linkedin"></i></a>
+        <a href="https://www.instagram.com/ajmalshx"><i class="uil uil-instagram"></i></a>
+      </div>
+    </div>
+    <div class="hero-orbit">
+      <div class="circle circle-lg"></div>
+      <div class="circle circle-md"></div>
+      <div class="circle circle-sm"></div>
+      <div class="floating-card">
+        <span><img src="./gif/Space Run Art GIF by PERFECTL00P.gif" alt=""></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title" data-animate>About Me</h2>
+      <div class="about-grid">
+        <div class="about-text" data-animate>
+          <p>
+            I'm a software support engineer and MERN stack developer who loves
+            turning ideas into real-world web applications with clean UI and
+            solid backend architecture.
+          </p>
+          <p>
+            I focus on performance, responsive design, and smooth user
+            experience using modern JavaScript and best practices.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card" data-animate>
+            <span class="label">Experience</span>
+            <h3>2+ Years</h3>
+            <p>Building and supporting web applications.</p>
+          </div>
+          <div class="about-card" data-animate>
+            <span class="label">Tech</span>
+            <h3>MERN Stack</h3>
+            <p>MongoDB, Express, React, Node.js.</p>
+          </div>
+          <div class="about-card" data-animate>
+            <span class="label">Focus</span>
+            <h3>Clean UI</h3>
+            <p>Animations, performance, accessibility.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title" data-animate>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill" data-animate>
+          <span>HTML / CSS</span>
+          <div class="progress">
+            <div class="bar" data-percent="90"></div>
+          </div>
+        </div>
+        <div class="skill" data-animate>
+          <span>JavaScript (ES6+)</span>
+          <div class="progress">
+            <div class="bar" data-percent="85"></div>
+          </div>
+        </div>
+        <div class="skill" data-animate>
+          <span>React / Next.js</span>
+          <div class="progress">
+            <div class="bar" data-percent="80"></div>
+          </div>
+        </div>
+        <div class="skill" data-animate>
+          <span>Node.js / Express</span>
+          <div class="progress">
+            <div class="bar" data-percent="80"></div>
+          </div>
+        </div>
+        <div class="skill" data-animate>
+          <span>MongoDB</span>
+          <div class="progress">
+            <div class="bar" data-percent="75"></div>
+          </div>
+        </div>
+        <div class="skill" data-animate>
+          <span>UI / UX Basics</span>
+          <div class="progress">
+            <div class="bar" data-percent="70"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title" data-animate>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" data-animate>
+          <div class="project-tag">Full Stack</div>
+          <h3>MERN Task Manager</h3>
+          <p>
+            A full-stack productivity app with JWT auth, drag-and-drop
+            tasks, and analytics dashboard.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-tag">Frontend</div>
+          <h3>Animated Landing Page</h3>
+          <p>
+            Modern responsive landing with scroll animations and
+            reusable React components.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-tag">API</div>
+          <h3>Node.js REST API</h3>
+          <p>
+            Secure REST API with Express, MongoDB, rate limiting, and
+            Swagger docs.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fun Zone: Real-time + Mini Sudoku -->
+  <section class="section" id="fun-zone">
+    <div class="container fun-zone">
+      <div class="datetime-card" data-animate>
+        <h2 class="section-title">Right Now</h2>
+        <p class="datetime-label">Your local date & time</p>
+        <div class="datetime-display">
+          <span id="liveDate"></span>
+          <span id="liveTime"></span>
+        </div>
+      </div>
+
+      <div class="game-card" data-animate>
+        <h2 class="section-title">Mini Sudoku</h2>
+        <p class="game-text">Fill numbers 1–4. Each number must appear once in every row and column.</p>
+        <div class="mini-grid" id="miniSudoku">
+          <!-- 4x4 Sudoku-like grid -->
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+          <input maxlength="1">
+        </div>
+        <div class="game-actions">
+          <button class="btn ghost" id="checkMiniSudoku">Check</button>
+          <button class="btn primary" id="resetMiniSudoku">Reset</button>
+        </div>
+        <p class="game-status" id="miniStatus"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title" data-animate>Contact</h2>
+
+    <div class="contact-grid">
+      <!-- Left Text -->
+      <div class="contact-text" data-animate>
+        <p>
+          Have a project idea, need a developer, or want to collaborate?
+          Drop a message and let's talk.
+        </p>
+        <p>Email: ajmalce2024@gmail.com</p>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" data-animate>
+        <div class="field">
+          <input type="text" placeholder="Your Name" required />
+        </div>
+
+        <div class="field">
+          <input type="email" placeholder="Your Email" required />
+        </div>
+
+        <div class="field">
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+        </div>
+
+        <!-- Send Mail Button -->
+        <button type="button" class="btn primary"
+          onclick="window.location.href='mailto:ajmalce2024@gmail.com';">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop">
+    <i class="uil uil-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
